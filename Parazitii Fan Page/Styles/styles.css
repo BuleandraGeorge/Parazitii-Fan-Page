@@ -3,97 +3,68 @@
     margin:0;
     padding:0;
 }
-html{
-    height:4650px;
-    display: flex;
-    width:100vw;
+body{
+    background-color: black;
+    color:white;
+    text-align: justify;
 }
-.ipad{
+.tablet{
     display:none;
 }
-.ipad-pro{
+.desktop{
     display:none;
+}
+section{
+    margin:5vh 1vw;
+    padding:1vh 3vw;
+    width:92vw;
 }
 .grey-bg{
-    background-color:grey;
-    width:95vw;
-    margin:2.5vw;
-    padding:2.5vw;
-
+    background-color: grey;
 }
 .light-grey-bg{
-background-color: #E1DFDF;
-padding:2.5vw;
-text-align: justify;
-margin-bottom: 50px;
+    background-color: #E1DFDF;
+    color:black;
+    padding:2vh 2vw;
 }
-body{
-    background-color:black;
-    font-family:"Open-Sans",sans-serif;
+h1.phone-screen{
+    text-align: center;
+    font-family: "Anton",sans-serif;
+    text-transform: uppercase;
+    margin:1vh auto;
 }
-header{
-        position: fixed;
-        height:40px;
-        background-color: black;
-        width:100%;
-        z-index: +1;
-    }
 .hero-image{
     background-image: url("http://s1.ziareromania.ro/?mmid=e82b655d25ac8e8326");
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
     height:20vh;
     width:100vw;
-    margin:0 auto;
 }
-/*-----------Headings----------*/
-h1{
-    color:white;
-    text-transform: uppercase;
-    font-family: "anton",sans-serif;
-    text-align:center;
- 
+section.first{
+    margin:0 0 5vh 0;
+    padding:0;
+    width:100vw;
 }
 h2{
+    text-align: center;
+    font-family: "Anton",sans-serif;
+    color:black;
+    letter-spacing: 1px;
+    margin:5px auto;
+}
+h3{
+    text-align: center;
+    color:black;
     font-family: "Anton",sans-serif;
     letter-spacing: 1px;
-    text-align:center;
-    text-transform: uppercase;
-    margin: 1vh 0;
-
+    margin: 5px auto;
 }
- h3{
- margin:10px 0px;
- }
- /*---------Parazitii Story----------*/
-div.description-box{
-    background-color:grey;
-    width:95vw;
-    margin:2.5vw;
-    padding:2.5vw;
-}
-div.description-box p{
-    background-color:#E1DFDF;
-    color:black;
-    padding:2vw;
-    margin:0;
+div p{
+    font-family: "Open-sans",sans-serif;
     text-align: center;
+    margin-bottom:20px;
 }
-div.awards-box{
-    background-color: grey;
-    width:95vw;
-    margin:2.5vw;
-    padding:2.5vw;
-}
-div.awards-box p{
-    background-color: #e1e1e1;
-    color:black;
-    text-align:center;
-    padding:2vw;
-    margin-bottom: 5px;
-}
-/*----------MEMBERS---------*/
-
+/*-------------Members-----------*/
 .photo-box{
 height:300px;
 width:100%;
@@ -122,66 +93,96 @@ width:100%;
  min-height: 100%;
  min-width: 100%;
  }
-
- p.disco-p{
+ section p{
+     margin:0 0 10px 0;
      text-align: center;
-     margin:10px 0px;
+     font-family: "Open-Sans",sans-serif;
  }
- .button-container-disco{
-     margin:20px auto;
-    padding:0 33vw;
+ /*------------------------Butons---------------*/
+ .buy-button{
+     background-color: white;
+     font-size: 20px;
+     text-align: center;
+     padding:10px 20px;
+     color:black;
+     text-decoration: none;
+     font-family: "Anton",sans-serif;
  }
- .button-container-events{
-      margin:20px auto;
-      padding: 0 25.5vw;
+ .buy-button:hover{
+     background-color:black;
+     color:white;
+     
  }
- 
-.button{
-
-    background-color:white;
-    color:black;
-    border-radius: 5px;
-    padding:10px; 
-    text-decoration: none;
+ div.button-container{
+     padding-left:30vw;
+     margin: 20px auto;
+ }
+#Sendit{
+    padding:5px 10px;
+    margin:2.5px 0;
+    background-color: white;
+    border:0;
+    font-family: "Open-Sans",sans-serif;
 }
-   
-.cd-fb{
-    margin-bottom: 10px;
-}
-
-.button:hover{
-    text-decoration: none;
-    color:white;
-    background-color: black;
-
-}
-.Comment{
-    width:85vw;
-    height:100px;
-}
-/*----------------Footer-----------------*/
-footer{
-    width: 105vw;
-    position: fixed;
-    display: inline;
-    top: 98vh;
-    background-color: black;
-    height: 7vh;
-}
-i{
-    color: white;
-    padding:1vw;
-    margin:3% 10%;
-}
-
-
-/*------------HamburgerMeniu----------------*/
-.burger-button{
+ /*--------------------Contact Details------------*/
+ div.cd{
+     margin:0 0 10px 0;
+     text-align: center;
+     font-family: "Open-Sans",sans-serif;
+ }
+ /*----------------------Feedback----------------*/
+ div.fb{
+     font-family:"Open-Sans",sans-serif;
+ }
+ #Comment{
+     width:85vw;
+     height:100px;
+ }
+ /*--------------------footer--------------------*/
+ footer{
+     position:fixed;
+     width:100vw;
+     height:40px;
+     bottom:1px;
+     display:flex;
+     justify-content: space-between;
+     background-color: black;
+     color:white;
+      }
+ div.footer-element{
+     margin:10px 0px 10px 30px;
+ }
+ a{
+     color:white;
+     text-decoration: none;
+ }
+ a:hover{
+     text-decoration: none;
+     color:white;
+ }
+ /*--------------BugerButtonViewSetup-------------------*/
+ .burger-button{
 	position: relative;
     height: 20px;
     width: 40px;
-    left: 86vw;
-    bottom: 35px;
+    right:20px;
+    bottom: 3px;
+}
+.dropdrown{
+	position: absolute;
+	background-color: black;
+	border-radius: 3px 3px 0px 0px;
+	color:white;
+	width:400%;
+	text-align: center;	
+	letter-spacing: 1px;
+	font-size: 1em;
+	margin:0;
+	padding: 0;
+    bottom:25px;
+    left:-100px;
+    display:none
+
 }
 .white-bars-container{
  background-color: black;
@@ -213,22 +214,6 @@ i{
 	margin:15px 4px;
 	
 }
-.dropdrown{
-	position: absolute;
-	background-color: black;
-	border-radius: 3px 3px 0px 0px;
-	color:white;
-	width:400%;
-	text-align: center;	
-	letter-spacing: 1px;
-	font-size: 1em;
-	margin:0;
-	padding: 0;
-    bottom:30px;
-    right:1px;
-    display:none
-
-}
 .burger-button:hover .dropdrown{
 	display:block;
 }
@@ -253,203 +238,4 @@ div ul li:hover{
 	list-style-type: none;
 	background-color: grey;
 
-}
-@media (min-width:768px){
-    .ipad{
-        display:initial;
-    } 
-    header h4.logo{
-        font-family: "anton",sans-serif;
-         padding:5px 20px;
-         text-emphasis: bold;
-         opacity: 100%;
-    }
-    header h4 a{
-        text-decoration:none;
-        color:white;
-        }
-    h4 a:hover{
-        text-decoration: none;
-        color:white;
-    }
-   .burger-button{
-        top:10px;
-        left:90vw;
-    }
-    .dropdrown{
-        top:20px;
-        right:1px;
-        background-color: black;
-    }
-    .small-screen{
-        display:none;
-    }
-    div.hero-image{
-        background-size: cover;
-         position: relative;
-         top:40px;
-        
-    }
-    .margin{
-        margin-top: 50px;
-    }
-    .photo-box{
-        height:600px;
-    }
-    .disco{
-    margin:20px 39vw;
-    }
-    .events{
-    margin:20px 36vw;
-    }
-    i.small-screen{
-        display:none;
-    }
-    footer{
-        display:flex;
-        justify-content: space-between;
-    }
-    footer a{
-        padding:1.5vh 5vw;
-        text-decoration: none;
-        color:white;
-    }
-    footer a:hover{
-        color:white;
-        text-decoration: none;
-    }
-    h3.footer-titles{
-        font-family: "Anton",sans-serif;
-    
-    }
-
-}
-@media (min-width:1024px){
-    html{
-        height:6000px;
-    }
-    .ipad{
-        display:none;
-    }
-    .ipad-pro{
-        display: initial;
-    }
-    .float-right-nav{
-        float:right;
-        margin-right:2.5vw;
-        margin-top: 5px;
-    }
-    .ipad-pro-nav li{
-        display:inline;
-        list-style-type:none;
-        padding:5px;
-    }
-    div.hero-image{
-        width:100vw;
-        background-size: cover;
-    }
-    section.margin{
-        justify-content: space-between;
-        height: 400px;
-        padding:20px 25px;
-    }
-    div.description-box{
-        float: left;
-        width:48%;
-        margin:0;
-        height: 350px;
-    }
-    div.awards-box{
-        float:right;
-        width:48%;
-        margin:0;
-        height:350px;
-    }
-    section.discxevents{
-        height: 125vh;
-
-    }
-    section.float-right{
-        width:45%;
-        float:right;
-        height:120vh;
-        margin-bottom: 100px;
-    }
-    section.float-left{
-        width:45%;
-        float:left;
-        height:120vh;
-        margin-bottom: 100px;
-    }
-    .disco{
-    margin:20px 15vw;
-    }
-    .events{
-        margin:20px 13.3vw;
-    }
-    section.contactxfeedback{
-        height:80vh;
-
-    }
-    .float-left-contact{
-        float:left;
-        width:45%;
-        height:45vh;
-    }
-    .float-right-feedback{
-        float:right;
-        width:45%;
-        height:45vh;
-    }
-    #Comment{
-    width:35vw;
-    height:230px;
-    }
-}
-@media (min-width:1337px){
-    html{
-        height:4800px;
-    }
-    div.hero-image{
-        height:90vh;
-        background-size: contain;
-    }
-    div.member-box{
-        display:inline-flex;
-    }
-    div.member-window{
-        width:35%;
-    }
-    section.discxevents{
-        height: 1700px;
-        padding:20px 25px;
-    }
-    section.float-left{
-        float: left;
-        width:49%;
-        margin:0;
-        height: 100%;
-    }
-    section.float-right{
-        float:right;
-        width:49%;
-        margin:0;
-        height: 100%;
-    }
-       section.contactxfeedback{
-        height:80vh;
-
-    }
-    .float-left-contact{
-        float:left;
-        width:46%;
-        height:100%;
-        margin-right:0;
-    }
-    .float-right-feedback{
-        float:right;
-        width:46%;
-        height:100%;
-        margin-left:0;
-    }
 }
