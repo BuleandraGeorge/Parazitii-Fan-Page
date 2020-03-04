@@ -11,40 +11,27 @@
     
     <body>
         <!------------------------------Tablet and Desktop Header--->
-        <header class="tablet desktop">
-			<h4 class="logo float-left"><a href="index.html">PARAZITII</a></h4>
-			<div class="burger-button tablet">
-				<div class="white-bars-container">
-					<span class="white-bar top"></span>
-					<span class="white-bar center"></span>
-					<span class="white-bar bottom"></span>
-				</div>
-				<ul class="dropdrown" >
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#description">Parazitii</a></li>
-					<li><a href="#members">Members</a></li>
-					<li><a href="#discography">Discography</a></li>
-					<li><a href="#events">Events</a></li>
-					<li><a href="#CD&FB">Contact Details & FeedBack</a></li>
-				</ul>
-			</div>
-            <nav class="float-right-nav desktop">
-                <ul class="ipad-pro-nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Members</a></li>
-                    <li><a href="">Discography & Events</a></li>
-                    <li><a href="">Contact & FeedBack</a></li>
+        <header class="desktop">
+			<h1 class="desktop"><a href="index.html">PARAZITII</a></h1>
+            <nav>
+                <ul class="desktop-nav">
+                    <li><a href="#cd">Contact & FeedBack</a></li>
+                    <li><a href="#discography">Discography & Events</a></li>
+                    <li><a href="#members">Members</a></li>
+                    <li><a href="index.html">Home</a></li>
                 </ul>
             </nav>
         </header>
         <!--------------------------------------Hero Image---------->
         <section class="first">
-        <h1 class="phone-screen">Parazitii</h1>
+        <h1 class="mobile">Parazitii</h1>
         <div class="hero-image">
         </div>
         </section>
-        <!-----------------------------==------Who are they---=---->
-        <section class="grey-bg"> 
+        <!-----------Wrapper for Who are they & AWARDS Desktop View-->
+        <div class="flex">
+        <!-----------------------------------Who are they------->
+            <section class="grey-bg left"> 
             <h2 id="story">Who are they?</h2>
             <div class="light-grey-bg">
                 <p>Paraziții (Romanian for "The Parasites", pronounced [paraˈzit͡sij]) 
@@ -52,9 +39,9 @@
                 It consists of Cheloo (Cătălin Ștefan Ion), Ombladon (Bogdan Ionuț Pastaca), 
                 and FreakaDaDisk (Petre Urda).</p>
             </div>
-        </section>
-        <!----------------------------------------Awards----------->
-        <section class="grey-bg"> 
+            </section>
+            <!----------------------------------Awards----------->
+            <section class="grey-bg right"> 
             <h2>Awards</h2>
             <div>
                 <p class="light-grey-bg">2009 <br>
@@ -66,11 +53,12 @@
                 <p class="light-grey-bg">2006 2005 2003<br>
                     Romanian Music Award for Best Act</p>
             </div>
-        </section >
+            </section >
+        </div>
         <!---------------------------------------Members---------->
         <section class="grey-bg">
-                <h2 id="members">Members</h2>
-        <div class="member-box">
+            <h2 id="members">Members</h2>
+            <div class="flex">
             <div class="member-window">
                 <div class="photo-box">
                     <div class="photo-cheloo">
@@ -80,29 +68,32 @@
                 <p class="light-grey-bg p-bio">Cheloo (Cătălin Ștefan Ion by his real name) is a 
                 Romanian hip-hop artist and a founding member of Paraziții.
                  He is also a music producer and together with Ombladon and 
-                 Freakadadisk he set up 20 CM Records.<br>
+                 Freakadadisk he set up 20 CM Records.
                  He started out as a producer and sound engineer at Studio Box, the place where
-                  he gained most of his experience. Starting 2003 he has his own studio and is currently
-                   promoting his personal label called 16HZ and acts as a producer for two local acts.
+                 he gained most of his experience.<br>
+                 To date, Ombladon has individually accumulated 2 solo albums, 3 singles and 12 
+                 albums with the band Parasatii. It has so far 2 awards, being MTV Europe (2004)
+                  - Best Romanian Act and MTV Romanian Music Awards (2005) - Best Hip-Hop.
                  </p>
-        </div>
-        <div class="member-window">
-            <div class="photo-box">
-                 <div class="photo-ombladon">
-                 </div>
             </div>
-            <h3>Ombladon</h3>
-            <p class="light-grey-bg">Ombladon (Bogdan Ionuț Păstacă by his real name) is 
+            <div class="member-window">
+                <div class="photo-box">
+                    <div class="photo-ombladon">
+                    </div>
+                </div>
+                <h3>Ombladon</h3>
+                <p class="light-grey-bg">Ombladon (Bogdan Ionuț Păstacă by his real name) is 
              Romanian hip-hop artist that in 1994 join Cheloo to form
                  the hip-hop band, Parazitii. 
                 The first recorded song is "In Jur" and appeared on September
                  13, 1994. A day later they held their first concert, at a 
                  high-school prom. On April 10, 2004 Ombladon launches its first album,
-                  Condoleanțe, album awarded with the Golden Disc for the large number 
-                  of copies sold.
+                Condoleanțe, album awarded with the Golden Disc for the large number 
+                of copies sold.Next to Bitza and Ombladon, he was was nominated for 
+                the Romanian Music Awards 2012, in the category "Best Hip-Hop"
                   </p>
-        </div>
-        <div class="member-window">
+            </div>
+            <div class="member-window">
               <div class="photo-box">
                 <div class="photo-freakadadisk">
                     </div>
@@ -111,13 +102,17 @@
                 <p class="light-grey-bg">FreakaDaDisk (Petre Urda by his real name) is Romanian hip-hop artist 
                  member of Paraziții from 1999.He has been a member of the Morometze band since 1997.
                 Later in 1999, he decide to leave the band and colaborates with Parazitii in album 
-                "Nici o Problema". After this colaboration, he joins in the band.
+                "Nici o Problema". After this colaboration, he joins in the band.<br>
+				Next to Bitza and Ombladon, he was was nominated for the Romanian Music Awards 2012, in the category
+                "Best Hip-Hop"
                 </p>
             </div>
-        </div>
+            </div>
         </section>
-        <!-------------------------------------Discography-------->
-        <section class="grey-bg">
+        <!-----------Wrapper for Discography & Events---------------->
+        <div class="flex">
+            <!-------------------------------------Discography-------->
+            <section class="grey-bg left">
 				<h2 id="discography">Discography</h2>
 					<p class="light-grey-bg">
 					2019<br>ARMA SECRETA - FORWARD AGENCY<br>
@@ -158,9 +153,9 @@
                     <div class="button-container">
 					<a class="buy-button " href="http://www.20cmrecords.com/catalog/albume-11/" target="_blank">Buy Now!</a>
                     </div>
-		</section>
-        <!---------------------------------------Events----------->
-        <section class="grey-bg">
+		    </section>
+            <!---------------------------------------Events----------->
+            <section class="grey-bg right">
 				<h2 id="events">Events</h2>
 					<p class="light-grey-bg ">
 					Club Fratelli<br>2 November - Iasi</p>
@@ -179,9 +174,12 @@
                 <div class="button-container">
 				<a class="buy-button" href="https://m.iabilet.ro/artist-parazitii/" target="_blank">Buy Now!</a>
                 </div>
-		</section>
-        <!------------------------------------ContactDetails------>
-        <section class="grey-bg">
+		    </section>
+        </div>
+        <!-----------Wrapper for ContactDetails & FeedBack---------------->
+        <div class="flex">
+            <!------------------------------------ContactDetails------>
+            <section class="grey-bg left">
 						<h3 id="cd">Contact details</h3>
 						<div class="light-grey-bg cd">
 							<h4>Adress</h4>
@@ -196,9 +194,9 @@
 							<h4>Email</h4>
 							<h6>comenzi@xplicit.ro</h6>
 						</div>
-        </section>
-        <!------------------------------------FeedBack------------>
-        <section class="grey-bg">
+            </section>
+            <!------------------------------------FeedBack------------>
+            <section class="grey-bg right">
                     <h3 id="feedback">Send us feedback!</h3>
 					<div class="light-grey-bg fb">
 						<form id="feedback-form" action="#" onsubmit="return alert('Thank You For Your Feedback!!!');">
@@ -218,21 +216,22 @@
 						</form>
 					</div>
             </section>
+        </div>
          <!------------------------------------Footer------------>
         <footer>
                 <div class="footer-element">
                     <a href="https://www.facebook.com/ParazitiiOfficial/" target="_blank">
-                        <i class="fab fa-facebook-f mobile"></i><h3 class="footer-titles tablet desktop">FACEBOOK</h3>
+                        <i class="fab fa-facebook-f mobile"></i><h3 class="footer-titles desktop">FACEBOOK</h3>
                     </a>
                 </div>
                 <div class="footer-element">
                     <a href="https://www.instagram.com/parazitiiofficial/" target="_blank">
-                        <i class="fab fa-instagram mobile"></i><h3 class="footer-titles tablet desktop">INSTAGRAM</h3>
+                        <i class="fab fa-instagram mobile"></i><h3 class="footer-titles desktop">INSTAGRAM</h3>
                     </a>
                 </div>
                 <div class="footer-element">
                     <a href="https://www.youtube.com/user/PARAZITII20cmOFICIAL" target="_blank">
-                        <i class="fab fa-youtube mobile"></i><h3 class="footer-titles tablet desktop">YOUTUBE</h3>
+                        <i class="fab fa-youtube mobile"></i><h3 class="footer-titles desktop">YOUTUBE</h3>
                     </a>
                 </div>
 				 <div class="burger-button footer-element mobile">
