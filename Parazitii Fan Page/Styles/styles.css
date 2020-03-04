@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans&display=swap');
+html{
+    height:5500px;
+}
+.ipad{
+    display:none;
+}
+.ipad-pro{
+    display:none;
+}
+body{
+    background-color:black;
+}
+header{
+        position: fixed;
+        height:40px;
+        background-color: black;
+        width:100%;
+        z-index: +1;
+    }
+.hero-image{
+    background-image: url("http://s1.ziareromania.ro/?mmid=e82b655d25ac8e8326");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:20vh;
+    width:100vw;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-family: "anton",sans-serif;
+    text-align:center;
+}
+h2{
+    text-align:center;
+    font-family:"open-sans",sans-serif;
+    text-transform: uppercase;
+
+}
+div.description-box{
+    background-color:grey;
+    width:95vw;
+    margin:2.5vw;
+    padding:2.5vw;
+    border-radius:3px;
+}
+div.description-box p{
+    background-color:#E1DFDF;
+    color:black;
+    padding:2vw;
+    margin:0;
+    border-radius:3px;
+    text-align: center;
+}
+div.awards-box{
+    background-color: grey;
+    width:95vw;
+    margin:2.5vw;
+    padding-bottom:2vw;
+    border-radius:3px;
+}
+div.awards-box p{
+    background-color: #e1e1e1;
+    color:black;
+    text-align:center;
+    margin:2.5vw;
+    border-radius:3px;
+}
+footer{
+    width:100vw;
+    position: fixed;
+    display:inline;
+    top:94vh;
+    background-color: black;
+    height:6vh;
+}
+i{
+    color: white;
+    padding:1vw;
+    margin:3% 10%;
+}
+
+
+
+.burger-button{
+	position: relative;
+	height:20px;
+	width:40px;
+    left:83vw;
+    bottom:33px;
+}
+.white-bars-container{
+ background-color: black;
+ width:100%;
+ height:100%;
+ border-radius: 2px;
+ position: absolute;
+}
+.white-bar{
+	position: absolute;
+	border-radius: 1px;
+	height:7%;
+	width:80%;
+	background-color:white;
+  	z-index: 1;
+
+}
+.top{
+	display:inline-block;
+	margin:5px 4px;
+	
+}
+.center{
+	display:inline-block;
+	margin:10px 4px;
+}
+.bottom{
+	display:inline-block;
+	margin:15px 4px;
+	
+}
+.dropdrown{
+	position: absolute;
+	background-color: black;
+	border-radius: 3px 3px 0px 0px;
+	color:white;
+	width:400%;
+	text-align: center;	
+	letter-spacing: 1px;
+	font-size: 1em;
+	margin:0;
+	padding: 0;
+    bottom:35px;
+    right:1px;
+    display:none
+
+}
+.burger-button:hover .dropdrown{
+	display:block;
+}
+.white-bars-container:hover {
+	background-color: grey;
+	border-radius: 2px;
+}
+ul li a{
+	color:white;
+	text-decoration: none;
+}
+div ul li a:hover{
+	text-decoration: none;
+	color:white;
+}
+div ul li{
+	list-style-type: none;
+	margin:2%;
+	border-radius: 3px;
+}
+div ul li:hover{
+	list-style-type: none;
+	background-color: grey;
+
+}
+.grey-bg{
+    background-color:grey;
+    width:95vw;
+    margin:2.5vw;
+    border-radius:3px;
+    padding:2.5vw;
+
+}
+.light-grey-bg{
+background-color: #E1DFDF;
+padding:2.5vw;
+text-align: justify;
+border-radius: 3px;
+margin-bottom: 50px;
+}
+.photo-box{
+height:300px;
+ width:100%;
+}
+.photo-cheloo{
+ background-image: url("https://www.romania-insider.com/sites/default/files/styles/article_large_image/public/featured_images/cheloo.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+ min-height: 100%;
+ min-width: 100%;
+ }
+.photo-ombladon{
+ background-image: url("https://img.discogs.com/-5o_td5jXfHRCJwsGCxNOMmyGkQ=/600x600/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-551894-1481027309-2497.jpeg.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+ min-height: 100%;
+ min-width: 100%;
+ }
+ .photo-freakadadisk{
+ background-image: url("https://storage0.dms.mpinteractiv.ro/media/1/381/17167/1080367/3/para-freaka2.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+ min-height: 100%;
+ min-width: 100%;
+ }
+ h3{
+ margin:10px 0px;
+ }
+ p.disco-p{
+     text-align: center;
+     margin:10px 0px;
+ }
+ 
+.button{
+
+    background-color:white;
+    color:black;
+    border-radius: 5px;
+    padding:10px;  
+}
+.disco{
+    margin:20px 32vw;
+}
+.events{
+        margin:20px 25vw;
+}
+.button:hover{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+
+}
+.Comment{
+    width:85vw;
+    height:100px;
+}
+@media (min-width:768px){
+    .ipad{
+        display:initial;
+    } 
+    header h4.logo{
+        font-family: "anton",sans-serif;
+         padding:5px 20px;
+         text-emphasis: bold;
+         opacity: 100%;
+    }
+    header h4 a{
+        text-decoration:none;
+        color:white;
+        }
+    h4 a:hover{
+        text-decoration: none;
+        color:white;
+    }
+   .burger-button{
+        top:10px;
+        left:90vw;
+    }
+    .dropdrown{
+        top:20px;
+        right:1px;
+        background-color: black;
+    }
+    .small-screen{
+        display:none;
+    }
+    div.hero-image{
+        background-size: cover;
+         position: relative;
+         top:40px;
+        
+    }
+    .margin{
+        margin-top: 50px;
+    }
+    .photo-box{
+        height:600px;
+    }
+    .disco{
+    margin:20px 39vw;
+    }
+    .events{
+    margin:20px 36vw;
+    }
+    i.small-screen{
+        display:none;
+    }
+    footer{
+        display:flex;
+        justify-content: space-between;
+    }
+    footer a{
+        padding:1.5vh 5vw;
+        text-decoration: none;
+        color:white;
+    }
+    footer a:hover{
+        color:white;
+        text-decoration: none;
+    }
+    h3.footer-titles{
+        font-family: "Anton",sans-serif;
+    
+    }
+
+}
+@media (min-width:1024px){
+    html{
+        height:6000px;
+    }
+    .ipad{
+        display:none;
+    }
+    .ipad-pro{
+        display: initial;
+    }
+    .float-right-nav{
+        float:right;
+        margin-right:2.5vw;
+        margin-top: 5px;
+    }
+    .ipad-pro-nav li{
+        display:inline;
+        list-style-type:none;
+        padding:5px;
+    }
+    div.hero-image{
+        width:100vw;
+        background-size: cover;
+    }
+    section.margin{
+        justify-content: space-between;
+        height: 400px;
+        padding:20px 25px;
+    }
+    div.description-box{
+        float: left;
+        width:48%;
+        margin:0;
+        height: 350px;
+    }
+    div.awards-box{
+        float:right;
+        width:48%;
+        margin:0;
+        height:350px;
+    }
+    section.discxevents{
+        height: 125vh;
+
+    }
+    section.float-right{
+        width:45%;
+        float:right;
+        height:120vh;
+        margin-bottom: 100px;
+    }
+    section.float-left{
+        width:45%;
+        float:left;
+        height:120vh;
+        margin-bottom: 100px;
+    }
+    .disco{
+    margin:20px 15vw;
+    }
+    .events{
+        margin:20px 13.3vw;
+    }
+    section.contactxfeedback{
+        height:80vh;
+
+    }
+    .float-left-contact{
+        float:left;
+        width:45%;
+        height:45vh;
+    }
+    .float-right-feedback{
+        float:right;
+        width:45%;
+        height:45vh;
+    }
+    #Comment{
+    width:35vw;
+    height:230px;
+    }
+}
+@media (min-width:1337px){
+    html{
+        height:4800px;
+    }
+    div.hero-image{
+        height:90vh;
+        background-size: contain;
+    }
+    div.member-box{
+        display:inline-flex;
+    }
+    div.member-window{
+        width:35%;
+    }
+    section.discxevents{
+        height: 1700px;
+        padding:20px 25px;
+    }
+    section.float-left{
+        float: left;
+        width:49%;
+        margin:0;
+        height: 100%;
+    }
+    section.float-right{
+        float:right;
+        width:49%;
+        margin:0;
+        height: 100%;
+    }
+       section.contactxfeedback{
+        height:80vh;
+
+    }
+    .float-left-contact{
+        float:left;
+        width:46%;
+        height:100%;
+        margin-right:0;
+    }
+    .float-right-feedback{
+        float:right;
+        width:46%;
+        height:100%;
+        margin-left:0;
+    }
+}
