@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Chakra+Petch:600&display=swap');
 *{
     margin:0;
     padding:0;
@@ -7,6 +7,9 @@ body{
     background-color: black;
     color:white;
     text-align: justify;
+    font-family: "Chakra Petch",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 .tablet{
     display:none;
@@ -15,15 +18,14 @@ body{
     display:none;
 }
 section{
-    margin:5vh 1vw;
-    padding:1vh 3vw;
-    width:92vw;
+    padding:1vh 2vw;
+    margin:5vw 1.5vw;
 }
 .grey-bg{
-    background-color: grey;
+    background-color: #6B6A6B;
 }
 .light-grey-bg{
-    background-color: #E1DFDF;
+    background-color: #F6F6F6;
     color:black;
     padding:2vh 2vw;
 }
@@ -44,7 +46,12 @@ h1.mobile{
 section.first{
     margin:0 0 5vh 0;
     padding:0;
-    width:100vw;
+}
+section.last{
+    margin-bottom:10vh;
+}
+h1{
+    text-transform: uppercase;
 }
 h2{
     text-align: center;
@@ -52,6 +59,7 @@ h2{
     color:black;
     letter-spacing: 1px;
     margin:5px auto;
+    text-transform: uppercase;
 }
 h3{
     text-align: center;
@@ -61,7 +69,6 @@ h3{
     margin: 5px auto;
 }
 div p{
-    font-family: "Open-sans",sans-serif;
     text-align: center;
     margin-bottom:20px;
 }
@@ -85,10 +92,10 @@ nav ul.desktop-nav li{
     margin:15px 1vw;
     float:right;
     text-align: center;
-
 }
 nav ul.desktop-nav li a{
-    padding:10px 0;
+     padding:10px 0.5vw;
+     border-radius:5px;
 }
 /*-------------Members-----------*/
 .photo-box{
@@ -122,7 +129,6 @@ width:100%;
  section p{
      margin:0 0 10px 0;
      text-align: center;
-     font-family: "Open-Sans",sans-serif;
  }
  /*------------------------Butons---------------*/
  .buy-button{
@@ -131,8 +137,7 @@ width:100%;
      text-align: center;
      padding:10px 20px;
      color:black;
-     text-decoration: none;
-     font-family: "Anton",sans-serif;
+     text-transform: uppercase;
  }
  .buy-button:hover{
      background-color:black;
@@ -169,7 +174,7 @@ width:100%;
      position:fixed;
      width:100vw;
      height:40px;
-     top:95.5vh;
+     bottom: 0vh;
      display:flex;
      justify-content: space-between;
      background-color: black;
@@ -185,6 +190,13 @@ width:100%;
  a:hover{
      text-decoration: none;
      color:white;
+ }
+ i.copyright{
+     position: fixed;
+     bottom:6.7vh;
+     color:white;
+     left:49vw;
+     z-index: -1;
  }
  /*--------------BugerButtonViewSetup-------------------*/
  .burger-button{
@@ -278,9 +290,7 @@ div ul li:hover{
     div.button-container {
     padding-left: 39vw;
     }
-    footer{
-     top:96.5vh;
-    }
+    
 }
 @media (min-width:1024px){
     h3.desktop{
@@ -302,23 +312,23 @@ div ul li:hover{
     .hero-image{
         height:30vh;
     }
-    section.member{
-        width:92vw;
-    }
     div.flex{
         display:flex;
         justify-content:space-between;
     }
+    section{
+        margin-bottom: 2.5vh;
+    }
     section.left{
-        width:42vw;
-        margin:10px 5px;
+        width:45vw;
+        margin:10px 10px;
     }
     section.right{
-        width:42vw;
-        margin:10px 5px;
+        width:45vw;
+        margin:10px 10px;
     }
     div.member-window,div.member-window p{
-        margin:10px 5px;
+        margin:10px 0px;
         max-width:30vw;
 
     }
@@ -328,16 +338,26 @@ div ul li:hover{
     #Comment {
     width: 40vw;
     }
-    footer{
-     top:97vh;
+   
+    i.copyright {
+    bottom: 4vh;
     }
 }
 @media (min-width:1200px){
     div.hero-image{
         height:72vh;
+        width:100vw;
     }
-    footer{
-     top: 93vh;
+    div.last{
+        margin-bottom: 3vh;
     }
+     i.copyright{
+     bottom:7vh;
+     left:48.5vw;
+ }
+ header ul li:hover a{
+     background-color:#F6F6F6;
+     color:black;
+ }
     
 }
