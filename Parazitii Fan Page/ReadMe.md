@@ -20,29 +20,27 @@ box provided they can achieve all of the goals mentioned above very fast due to 
 <p>
 The website have different features from links to navbar and hamburger menu that helps the user to achieve different goals mentioned above.
 <h2>Existing Features</h2>
-<p>
-Some of them are:<br>
-Nav-bar and hambuger menu - allows users that wants to find the contact details from the bottom of the website page with just 2 clicks without scrolling the entire website.<br>
-More than that the hambuger-menu is placed at the right bottom of the mobiles screen to be easier to be reached by mobile users.<br>
-Events section - allows users that want to find coming events, to know where is next event by just surfing there easy due to the navigations features provided and have
-a look on the list displayed and more than that, to buy a ticket throughout the link provided to the official tickets website.<br>
-Links - links to their official tickets and disks shops.
-</p>
-
+The features are:<br> 
+<p> - links to official shops for tickets, disks and other staff.</p>
+<p> - navbar and hamburger menu that helps the user to surf on page very quick.</p>
+<p> - a brief story of the band and members,discography and event list, that help the new fans to discover Parazitii and to
+stay tooned for coming events.</p>
+<p> - contact box helps the users to get in touch with the band.</p>
+<p> - feedback box helps the users to say how was their Parazitii experience.</p>
+<p> - pictures that make the website pleasant for eye and offer more details about the band.</p>
 <h2>Features Left to Implement</h2>
 <p>
 For the near future I want to implement a shopping cart for tickets and disks and a forum where fans can discuss different hip-hop topics.
 </p>
 <h1>Technologies Used</h1>
 <p>
-To build this website I have used html and css and a drop of javascript to display that modal with text: "Thank you for your feedback" as feedback for submit.
+To build this website I have used html and css and javascript to display that modal with the text: "Thank you for your feedback" as feedback for submit.
 </p>
 <h1>Testing</h1>
 <p>
 To test the website I have used https://validator.w3.org/ to test the html code and https://jigsaw.w3.org/css-validator/ to test the css code. <br>
 To test the website responsiveness I have used Google Chrome's developer tool and I have asked all my friends to enter on the website from different
-devices that they have and to tell me how is it displayed, if there is any errors or any displaying errors, 
-and to send me print screen.
+devices that they have and to tell me how is it displayed, if there is any errors or any displaying errors, and to send me print screen.
 </p>
 <p>
 To test the feedback form I have submitted the empty form and I have verified that if an error message about the required fields appears.<br>
@@ -59,15 +57,15 @@ For tablets same displaying method is keeped as on mobile<br><br>
 For displays bigger than 1024 pixels I have chosen to add a navigation bar in top of the screen that is fixed so you can jump from section to another
 whenever you want<br><br>
 The social links that on the mobile screen are icons become wrote for a better look on desktop-displays.<br>
-And because on the desktop screen sections would be too big one beneath another
-I have chosen to display paires of two sections for eg: discography and events next to each other and the member boxes to be displayed in line.<br>
-I have noticed that the Hero Image seems to be too small on different widths of the displaying devices, I have added some media querries but there are stil some problems and
-sometimes the link to the styling file is not working properly so the website becomes a bunch of text.
+And because on the desktop screen sections would be too big one beneath another I have chosen to display paires of two sections for eg: discography 
+and events next to each other and the member boxes to be displayed in line.<br>
+I have noticed that the Hero Image seems to be too small on different widths of the displaying devices, I have added some media querries but there 
+are still some problems and sometimes the link to the styling file is not working properly so the website becomes a bunch of text.
 </p>
 <h1>Deployment</h1>
 <p>
-First I did the project in Sublime text editor and when I have uploaded on GitHub, the pictures didn't work, I have tried different ways to write the path but no succes so i have chosen to put 
-the link from the official source.
+First I wrote the project with Sublime text editor and when I have uploaded on GitHub, the pictures didn't work, I have tried different ways to write 
+the path but no succes so I have chosen to put the link from the official source.
 </p>
 <p>
 The website is uploaded on GitHub and is located here:https://github.com/BuleandraGeorge/StaticWebsite.
@@ -76,16 +74,17 @@ For CSS Code : click on the "Parazitii Fan Page >>> Styles >>> styles.css.<br>
 For README: click on the "Paraziti Fan Page >>> README.MD.<br>
 </p>
 <p>
-If you want run the code locally, you have to acces the link provided above and in the top-right corner you will see a green button
-named GitPod, you have press on it, after couple seconds the page GitPod will be loaded and after that you have to go in the terminal and type "python3 -m http.server" (without quotes)
-and then click on "Open Ports" and there you will see a port named "8000 - Open" and you have to press "Open Browser" then click on "Paraziti Fan Page" and then click on "Pages" and
+If you want run the code locally, you have to acces the link provided above and:<br> 
+ - in the top-right corner you will see a green button named GitPod, you have press on it, after couple seconds GitPod page will be loaded,<br>
+ - now you have to go in the terminal and type "python3 -m http.server" (without quotes), to do that you can press on the "Terminal" button in top-left of screen or CTRL+SHIFT+` shortkey,<br>
+ - a new port (port 8000) will be open, the port can be seen in "Open Ports", and for port 8000 you have to press "Open Browser" then click on "Paraziti Fan Page" and then click on "Pages" and
 the website will be displayed.
 </p>
 <h1>Credits</h1>
 <h2>Content</h2>
 <p>
 The content:<br>
-    - "Who they are?":was copied from Wikipedia first paragraph, following <a href="https://en.wikipedia.org/wiki/Parazi%C8%9Bii." target="_blank">link</a><br>
+    - "Who they are?":was copied from Wikipedia first paragraph, following <a href="https://en.wikipedia.org/wiki/Parazi%C8%9Bii." target="_blank">link</a>.<br>
     - "Awards": was copied from google link:following <a href="https://www.google.com/search?sxsrf=ALeKk021SgMnLY0EDO1QWGo_FD3uvzFdpg:1583422776955&q=parazi%C8%9Bii+nominaliz%C4%83ri&stick=H4sIAAAAAAAAAOPgE
     -LUz9U3MDXIik_SUspOttJPLE8sSoGQ8eWZeXmpRVZ5-bmZeYklmfl5xYtYJQoSixKrMk_MzsxUgEjkZFYdaS7KBABbvoyGTAAAAA&sa=X&ved=2ahUKEwjl-pjB1YPoAhWTTRUIHUHUC-wQ6BMoADAcegQIEBAC&sxsrf=ALeKk021SgMnLY0EDO1QWGo_FD3uvzFdpg:
     1583422776955&biw=1366&bih=625" target="_blank">link</a><br>
@@ -98,10 +97,10 @@ The content:<br>
 </p>
 <h2>Media</h2>
 <p>
- Hero Image i have got it from following <a href="http://s1.ziareromania.ro/?mmid=e82b655d25ac8e8326" target="_blank">link</a><br>
- Cheloo Image i have got it from following <a href="https://www.romania-insider.com/sites/default/files/styles/article_large_image/public/featured_images/cheloo.jpg" target="_blank">link</a><br>
- Ombladon Image i have got it from following <a href="https://img.discogs.com/-5o_td5jXfHRCJwsGCxNOMmyGkQ=/600x600/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-551894-1481027309-2497.jpeg.jpg" target="_blank">link</a><br>
- Freakadadisk Image i have got it from following <a href="https://storage0.dms.mpinteractiv.ro/media/1/381/17167/1080367/3/para-freaka2.jpg" target="_blank">link</a><br>
+ Hero Image I have got it from following <a href="http://s1.ziareromania.ro/?mmid=e82b655d25ac8e8326" target="_blank">link</a>.<br>
+ Cheloo Image I have got it from following <a href="https://www.romania-insider.com/sites/default/files/styles/article_large_image/public/featured_images/cheloo.jpg" target="_blank">link</a>.<br>
+ Ombladon Image I have got it from following <a href="https://img.discogs.com/-5o_td5jXfHRCJwsGCxNOMmyGkQ=/600x600/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-551894-1481027309-2497.jpeg.jpg" target="_blank">link</a>.<br>
+ Freakadadisk Image I have got it from following <a href="https://storage0.dms.mpinteractiv.ro/media/1/381/17167/1080367/3/para-freaka2.jpg" target="_blank">link</a>.<br>
 </p>
 <h1>Acknowledgements</h1>
 <p>
